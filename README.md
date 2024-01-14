@@ -52,7 +52,7 @@ Here's how:
 
 <!-- Documentation -->
 ## Documentation
-Open the following link to read the detailed Notion Documentation for the project. [Documentation]()
+Open the following link to read the detailed Notion Documentation for the project. [Documentation](https://slow-comic-da4.notion.site/Branch-International-Exercise-d25550d8baed45a4a75a455a181da492)
 
 <!-- built with -->
 ## Built With
