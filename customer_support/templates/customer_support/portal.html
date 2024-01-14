@@ -1,0 +1,30 @@
+{% extends 'customer_Support/base.html' %}
+
+{% block title %}Portal | {% endblock %}
+
+{% block user %}
+{% if user %}
+    <div clas="flex"><div class="flex">{{user}}</div> <div class="flex text-sm">is Logged in!</div></div>
+   
+{% else %}
+    Branch Interantional
+{% endif %}
+{% endblock %}
+
+{% block content %}
+<div class="p-10 lg:p-10 text-center">
+    <h3 class="text-xl lg:text-3xl text-indigo-800 font-bold">Open Tickets</h1>
+</div>
+
+<div class="w-full flex flex-wrap justify-center">
+    {% for ticket in tickets %}
+        <div class="w-full lg:w-2/4 px-3 py-3">
+            <div class="p-4 bg-white shadow-lg rounded-s text-center">
+                <h2 class="mb-5 text-xl italic ext-ellipsis font-serif">issue# - {{ ticket.title }}</h2>
+
+                <a href="{% url 'portal' ticket.ticketID  %}" class="px-5 py-3 block rounded-xl text-white bg-indigo-600 hover:bg-indigo-700">open ticket</a>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+{% endblock %}
