@@ -39,7 +39,9 @@
 </details>
 
 
-
+<!-- Demo Video -->
+## Demo Video
+[Link](https://drive.google.com/file/d/1vaUy2IDvuuphejjjyw7tXSQtwWC2E3_P/view?usp=drive_link) to the demo video the CS Portal Project.
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
